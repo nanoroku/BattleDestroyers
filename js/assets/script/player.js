@@ -1,13 +1,13 @@
 window.gLocalAssetContainer["player"] = function(g) { (function(exports, require, module, __filename, __dirname) {
 "use strict";
 
-// ============================================================================
-//  プレイヤーの抽象クラス
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.DestroyerMutsuki = void 0;
 exports.gameAgeMs = gameAgeMs;
+// ============================================================================
+//  プレイヤーの抽象クラス
 // ============================================================================
 class Player extends g.Sprite {
   /**
